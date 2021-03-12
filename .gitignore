@@ -1,9 +1,27 @@
+HELP.md
 .gradle
 build/
 bin/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+logs/
+dataSource/
+*.hprof
+.scannerwork
+jenkins-scripts/
+charts/
+build-cache.tar.gz
+gradle/verification-metadata.xml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -13,3 +31,19 @@ bin/
 out/
 .ideaDataSources/
 dataSources/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### MAC ###
+.DS_Store
+
+### Custom ###
+k8s/secrets-*.yaml
